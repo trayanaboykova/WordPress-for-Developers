@@ -12,3 +12,6 @@ During this lesson, I covered PHP fundamentals, including understanding what PHP
 **WordPress Hooks, Actions and Tools**: <br>
 I learned about WordPress hooks, actions, and tools to understand the core functions that keep WordPress running smoothly. I explored The Loop, which controls how posts are displayed, and worked with WP-CLI and Query Monitor to manage and troubleshoot WordPress sites more efficiently. I also practiced using debug logs and basic debugging techniques to quickly identify and fix errors, making development in WordPress easier and more effective.
 
+**Theme Development Introduction**: <br>
+In the lecture on WordPress theme development, I was introduced to the structure and organization of WordPress themes, including file naming conventions and template usage. I also learned about creating and working with child themes to safely extend and modify existing themes without changing the original codebase.
+
