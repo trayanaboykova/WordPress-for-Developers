@@ -15,3 +15,5 @@ I learned about WordPress hooks, actions, and tools to understand the core funct
 **Theme Development Introduction**: <br>
 In the lecture on WordPress theme development, I was introduced to the structure and organization of WordPress themes, including file naming conventions and template usage. I also learned about creating and working with child themes to safely extend and modify existing themes without changing the original codebase.
 
+**Plugin Development Introduction**: <br>
+In this lesson, I learned to use tools like Webpack, Gulp, and Sass to optimize plugin development and improve theme structure. I also explored integrating with Gutenberg and block themes to enhance customization and functionality. This knowledge equipped me to create more robust WordPress plugins and themes with a cleaner structure and advanced features.
