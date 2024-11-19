@@ -4,12 +4,8 @@
 	<div class="container">
 
 		<div class="row">
-
 			<div class="col">
-
 				<div class="section-header">
-					<div class="title">
-					</div>
 					<h2 class="section-title"><?php echo get_the_archive_title(); ?></h2>
 				</div>
 			</div>
@@ -18,16 +14,18 @@
 
 		<div class="row">
 			<div class="col-md-12">
-				<?php if (have_posts()) : ?>
+				<?php if ( have_posts() ) : ?>
 					<div class="post-grid">
 						<div class="row">
-							<?php while (have_posts()) : the_post(); ?>
+							<?php while( have_posts() ) : the_post(); ?>
 								<div class="col-md-4">
-									<article class="post-item">
-										<?php if (has_post_thumbnail()) : ?>
+
+								<article id="post-id-<?php the_ID(); ?>" <?php post_class( 'post-item' ) ?>>
+
+										<?php if ( has_post_thumbnail() ) : ?>
 											<figure>
 												<a href="<?php echo get_the_permalink(); ?>" class="image-hvr-effect">
-													<?php the_post_thumbnail('full', ['class' => 'post-image']); ?>
+													<?php the_post_thumbnail( 'post-thumbnail', [ 'class' => 'post-image', 'title' => 'Feature image' ] ); ?>
 												</a>
 											</figure>
 										<?php endif; ?>
@@ -38,21 +36,27 @@
 											<p><?php the_excerpt(); ?></p>
 										</div>
 									</article>
+
 								</div>
 							<?php endwhile; ?>
 						</div>
 					</div>
 				<?php else : ?>
-					<p>No posts to be shown.</p>
+					No posts to be shown.
 				<?php endif; ?>
 			</div>
 		</div>
 
-
 		<div class="row">
 			<div class="col">
 
-			<?php  the_posts_pagination(); ?>
+				<?php
+				the_posts_pagination( array(
+					'mid_size'  => 2,
+					'prev_text' => __( 'Previous', 'textdomain' ),
+					'next_text' => __( 'Next', 'textdomain' ),
+				) );
+				?>
 
 				<!-- <div class="btn-wrap align-center">
 					<a href="#" class="btn btn-xlarge btn-accent btn-rounded">View all blog</a>
