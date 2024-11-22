@@ -17,3 +17,9 @@ In the lecture on WordPress theme development, I was introduced to the structure
 
 **<ins>Plugin Development Introduction</ins>**: <br>
 In this lesson, I learned to use tools like Webpack, Gulp, and Sass to optimize plugin development and improve theme structure. I also explored integrating with Gutenberg and block themes to enhance customization and functionality. This knowledge equipped me to create more robust WordPress plugins and themes with a cleaner structure and advanced features.
+
+**<ins>Theme Development Tools and Improvement</ins>** : <br>
+I extended my theme by exploring key WordPress components such as menus, sidebars, and widgets. I also touched on the concept of task managers, mentioned block themes, and learned a few new useful functions to enhance theme functionality. This deepened my understanding of theme customization and development.
+
+**<ins>Plugin Extension and Enhancement</ins>** : <br>
+I extended plugins and enhanced their functionality to make them more versatile and effective. I learned how to add new features and improve existing ones, ensuring they better meet user needs. This experience helped me refine my skills in customizing and building upon existing plugin features.
