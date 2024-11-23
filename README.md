@@ -24,3 +24,5 @@ I extended my theme by exploring key WordPress components such as menus, sidebar
 
 **<ins>Plugin Extension and Enhancement</ins>** : <br>
 I extended plugins and enhanced their functionality to make them more versatile and effective. I learned how to add new features and improve existing ones, ensuring they better meet user needs. This experience helped me refine my skills in customizing and building upon existing plugin features.
+
+**<ins>Project Enhancement and Server Deployment</ins>** : <br>
