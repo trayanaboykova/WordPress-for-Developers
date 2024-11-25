@@ -1,5 +1,15 @@
 <?php get_header(); ?>
 
+<?php
+
+$id = get_the_ID();
+
+$testimonial_author = get_field( 'author', $id );
+
+$testimonial_image = get_field( 'author_image', $id );
+
+?>
+
 <section id="about" class="scrollspy-section padding-xlarge">
     <div class="container">
         <div class="row">
