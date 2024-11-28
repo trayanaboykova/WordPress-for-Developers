@@ -26,3 +26,4 @@ I extended my theme by exploring key WordPress components such as menus, sidebar
 I extended plugins and enhanced their functionality to make them more versatile and effective. I learned how to add new features and improve existing ones, ensuring they better meet user needs. This experience helped me refine my skills in customizing and building upon existing plugin features.
 
 **<ins>Project Enhancement and Server Deployment</ins>** : <br>
+ I covered how to enhance a WordPress project by optimizing features and preparing it for live environments. I demonstrated the process of deploying a WordPress site to a server, ensuring all configurations were correct for a successful launch. The lesson aimed to help developers take their projects from local development to a live production server smoothly.
