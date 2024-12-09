@@ -27,3 +27,6 @@ I extended plugins and enhanced their functionality to make them more versatile 
 
 **<ins>Project Enhancement and Server Deployment</ins>** : <br>
  I covered how to enhance a WordPress project by optimizing features and preparing it for live environments. I demonstrated the process of deploying a WordPress site to a server, ensuring all configurations were correct for a successful launch. The lesson aimed to help developers take their projects from local development to a live production server smoothly.
+
+**<ins>Course Project</ins>** : <br>
+For the regular exam of this course, there was a project assignment, here is a link to the repository: [Wordpress Lifestyle Blog](https://github.com/trayanaboykova/WordPress-Lifestyle-Blog)
