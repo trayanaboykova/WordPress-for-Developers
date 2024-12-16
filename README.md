@@ -30,3 +30,6 @@ I extended plugins and enhanced their functionality to make them more versatile 
 
 **<ins>Course Project</ins>** : <br>
 For the regular exam of this course, there was a project assignment, here is a link to the repository: [Wordpress Lifestyle Blog](https://github.com/trayanaboykova/WordPress-Lifestyle-Blog)
+
+# Certificate
+<a href="https://softuni.bg/certificates/details/232193/ea28efa3" rel="nofollow"><img src="https://github.com/user-attachments/assets/459857af-bfd4-4975-b53d-937db8f0914b" alt="WordPress for Developers"></a>
